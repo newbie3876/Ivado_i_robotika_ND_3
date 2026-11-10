@@ -165,11 +165,10 @@ The basic LED and relay behaviors were tested during circuit development. The co
 ## Project Structure
 
 ```text
-arduino-hw3/
+Ivado_i_robotika_ND_3/
 ├── README.md
-├── arduino_hw3.ino
-└── docs/
-    └── technical_report.tex
+├── arduino-code.ino
+└── note.pdf
 ```
 
 ## Safety and Limitations
@@ -179,19 +178,3 @@ The demonstration uses a low-voltage 5 V relay coil.
 The relay contacts are not connected to an external load. Do not connect mains voltage to the breadboard circuit.
 
 Tinkercad simulation performance may be slower than real time, especially when frequent hardware timer interrupts are enabled.
-
-## Learning Outcomes
-
-This project demonstrates:
-
-- Interrupt-driven programming
-- Hardware timer configuration
-- Non-blocking task scheduling
-- EEPROM-based state persistence
-- GPIO register-level programming
-- Transistor-driven relay control
-- Shift-register communication
-
-## License
-
-Educational project for an Introduction to Robotics laboratory assignment.
