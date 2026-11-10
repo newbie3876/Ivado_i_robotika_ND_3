@@ -2,7 +2,7 @@
 
 An Arduino Uno R3 project demonstrating concurrent embedded-system tasks, hardware interrupts, EEPROM persistence, direct GPIO register access, and relay control.
 
-The circuit was designed in **Autodesk Tinkercad Circuits** and is intended for implementation using an Arduino Starter Kit.
+The circuit was designed in **Autodesk Tinkercad Circuits** and is intended for implementation using an Arduino learning Kit.
 
 ## Features
 
@@ -23,15 +23,15 @@ The circuit was designed in **Autodesk Tinkercad Circuits** and is intended for 
 |---|---:|
 | Arduino Uno R3 | 1 |
 | 74HC595 shift register | 1 |
-| Red LEDs | 8 |
+| Blue LEDs | 6 |
 | 1 kOhm LED resistors | 8 |
 | 10 kOhm potentiometer | 1 |
 | Pushbutton | 1 |
 | TIP120 Darlington transistor | 1 |
 | 1 kOhm transistor base resistor | 1 |
 | 5 V SPDT relay | 1 |
-| Flyback diode | 1 |
-| Breadboard and jumper wires | As needed |
+| 1N4007 diode | 1 |
+| Breadboard and jumper wires
 
 ### Arduino Pin Mapping
 
@@ -152,7 +152,7 @@ The same logic is intended for an Arduino Uno R3. Physical relay wiring should b
 
 ## Testing Checklist
 
-- [ ] All eight LEDs illuminate in sequence.
+- [ ] All six LEDs illuminate in sequence.
 - [ ] Potentiometer changes the animation speed.
 - [ ] Button reverses the animation direction.
 - [ ] Relay switches every five simulated seconds.
