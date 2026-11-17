@@ -214,7 +214,7 @@ void setup() {
   pinMode(POT_PIN, INPUT);
   writeShiftRegister(0);
 
-  // Krypties atkūrimas is EEPROM:
+  // Krypties atkūrimas iš EEPROM:
   uint8_t saved = EEPROM.read(EEPROM_DIRECTION_ADDR);
 
   if (saved <= 1) {
