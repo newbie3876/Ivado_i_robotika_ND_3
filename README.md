@@ -6,7 +6,7 @@ The circuit was designed in **Autodesk Tinkercad Circuits** and is intended for 
 
 ## Features
 
-- **8-LED running light** controlled by a 74HC595 shift register.
+- **5-LED running light** controlled by a 74HC595 shift register.
 - **Adjustable animation speed** using a potentiometer.
 - **Direction control** using a pushbutton and an external interrupt.
 - **Relay switching** every 5 seconds using a TIP120 transistor.
@@ -23,7 +23,7 @@ The circuit was designed in **Autodesk Tinkercad Circuits** and is intended for 
 |---|---:|
 | Arduino Uno R3 | 1 |
 | 74HC595 shift register | 1 |
-| Blue LEDs | 6 |
+| Blue LEDs | 5 |
 | 1 kOhm LED resistors | 8 |
 | 10 kOhm potentiometer | 1 |
 | Pushbutton | 1 |
